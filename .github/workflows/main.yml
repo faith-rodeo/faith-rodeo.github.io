@@ -24,4 +24,8 @@ jobs:
 
     - name: Cobalt deploy gh-pages
       uses: saidgeek/cobalt-deploy-gh-pages@v1.0.0
+      with:
+        githubToken: ${{ secrets.GITHUBTOKEN }}
+        branch: master
+        cname: faith.rodeo 
 
