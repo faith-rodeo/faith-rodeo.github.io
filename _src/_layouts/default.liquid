@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {% include '_layouts/head-tags.liquid' %}
+        {% include 'head.liquid' %}
         <title>{{ page.title }}</title>
     </head>
     <body>
-    {% include '_layouts/navbar.liquid' %}
+    {% include 'navbar.liquid' %}
 
     <div class="main">
       {{ page.content }}
     </div>
 
-    {% include '_layouts/footer.liquid' %}
+    {% include 'footer.liquid' %}
   </body>
 </html>

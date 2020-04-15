@@ -1,3 +1,4 @@
+---
 layout: post.liquid
 
 title: The Havoc Students Wreak Upon Themselves

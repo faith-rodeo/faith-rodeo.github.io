@@ -1,3 +1,4 @@
+---
 layout: default.liquid
 title: Contact faith.rodeo
 ---
