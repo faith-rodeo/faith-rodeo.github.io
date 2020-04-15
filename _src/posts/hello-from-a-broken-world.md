@@ -2,6 +2,7 @@ layout: post.liquid
 
 title: Hello From a Broken World
 is_draft: false
+published_date: 2020-04-15 15:00:00 +0100
 data:
     author: crofter
     date: 2020-04-15
