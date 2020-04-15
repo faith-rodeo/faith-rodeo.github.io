@@ -1,5 +1,5 @@
 source: _src
-destination: .
+destination: build
 site:
   title: faith.rodeo
   description: A group of people who, on occasion, have a thing or two to say
