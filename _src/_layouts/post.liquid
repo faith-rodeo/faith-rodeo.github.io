@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} | faith.rodeo</title>
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    </head>
+    <body>
+    {% include '_layouts/navbar.liquid' %}
+
+    <div class="main">
+        <h1 class="post-header">{{ page.title }}</h1>
+        <div class="post-content">
+            <p class="post-frontmatter">
+                Published {{ page.data.date }}<br>
+                By {{ page.data.author }}
+            </p>
+            {{ page.content }}
+
+            <p>
+                ~{{ page.data.author }}
+            </p>
+        </div>
+    </div>
+
+    {% include '_layouts/footer.liquid' %}
+  </body>
+</html>

@@ -1,0 +1,12 @@
+source: _src
+destination: .
+site:
+  title: faith.rodeo
+  description: A group of people who, on occasion, have a thing or two to say
+  base_url: https://faith.rodeo
+posts:
+  rss: rss.xml
+  jsonfeed: feed.json
+default:
+  excerpt_separator: "<span data-separator></span>"
+  is_draft: false

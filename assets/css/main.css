@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a:visited   { border: none; }
+
+p {
+    font-size: 1.3em;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 3%;
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+footer > nav { margin-bottom: 0px; }
+
+footer > nav > ul > li > a { 
+    color: white;
+    text-decoration: none;
+}
+
+footer > nav > ul { 
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: white;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav > ul > li > a { 
+    color: black;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover { text-decoration: underline; }
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+h1.index-header {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.head {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.centre {
+    text-align: center;
+}
+
+.large-paragraph {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.date {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 0em;
+}
+
+/* POSTS */
+.post-header {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.post-content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.post-frontmatter {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .post-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
