@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include 'head.liquid' %}
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+    {% include 'fr/navbar.liquid' %}
+
+    <div class="main">
+      {{ page.content }}
+    </div>
+
+    {% include 'fr/footer.liquid' %}
+  </body>
+</html>
