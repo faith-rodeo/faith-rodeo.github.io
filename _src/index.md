@@ -11,7 +11,7 @@ title: faith.rodeo
 
 {% for post in collections.posts.pages %}
 
-## [{{ post.title }}]({{ post.permalink }}) - by {{ post.data.author }}
+## [{{ post.title }}](/{{ post.permalink }}) - by {{ post.data.author }}
 <p class="date">{{ post.data.date }}</p>
 {{ post.excerpt}}
 <hr>
