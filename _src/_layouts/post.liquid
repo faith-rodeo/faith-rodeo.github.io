@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include 'head.liquid' %}
+        <title>{{ page.title }} | faith.rodeo</title>
+    </head>
+    <body>
+    {% include 'navbar.liquid' %}
+
+    <div class="main">
+        <h1 class="post-header">{{ page.title }}</h1>
+        <div class="post-content">
+            <p class="post-frontmatter">
+                Published {{ page.data.date }}<br>
+                By {{ page.data.author }}
+            </p>
+            {{ page.content }}
+
+            <p>
+                ~{{ page.data.author }}
+            </p>
+        </div>
+    </div>
+
+    {% include 'footer.liquid' %}
+  </body>
+</html>
